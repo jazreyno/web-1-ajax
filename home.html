@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infogames la enciclopedia de los juegos</title>
+    
+</head>
+
+<body> 
+        <link rel="stylesheet" href="./css/principal.css">
+
+        <header>
+            <nav class="navegador">
+                <div class="img-menu">
+                    <label for="img-menu-checkbox">
+                        <img src="./imagenes/menu.ico" alt="" id="menu-icon">
+                    </label>
+                </div>
+                    <!--menu mobile-->
+                <input  type="checkbox" class="img-menu__checkbox" id="img-menu-checkbox"/>
+                <ul class="main-menu">
+                    <li class="menu-li"> <a href="home.html" class="nav-enlace">VIDEOJUEGOS</a></li>
+                    <li class="menu-li"> <a href="./htmls/esport.html" class="nav-enlace">ESPORT</a> </li>
+                    <li class="menu-li"> <a href="./htmls/formulario.html" class="nav-enlace">FORMULARIO </a> </li>
+                </ul>
+            </nav>
+            <div class="cont-titulo-home">
+                <h1 class="titulo_principal">bienvenidos a infogames</h1>
+            </div>
+        </header>
+
+    <div class="cont-img-home">
+        <div class="lol-img">
+            
+            <a href="https://www.leagueoflegends.com/es-mx/" >
+            <img src="./imagenes/lol.jpg" class="lol"></a>
+           
+            <div>
+                <a href="https://www.leagueoflegends.com/es-mx/"> 
+                <button class="boton-lol">league of legends</button>
+            </a>  
+            </div>
+            
+        </div>
+
+        <div>
+            <a href="https://www.minijuegos.com/juegos-de-mario-bros">
+            <img src="./imagenes/mario.jpg" class="mario">
+            </a>
+            <div>
+                <a href="https://www.minijuegos.com/juegos-de-mario-bros">
+                <button class="boton-mario">Mario Bross</button>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <a href="https://playvalorant.com/es-mx/">
+            <img src="./imagenes/valo.png" class="valo">
+            </a>
+            <div>
+                <a href="https://playvalorant.com/es-mx/">
+                <button class="boton-valo">Valorant</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="texto_origen">
+        <h2> historia de los videojuegos</h2>
+        <p>La ascensión de los videojuegos llegó con la máquina recreativa Pong que es considerada la versión comercial del juego Tennis for Two de Higginbotham. El sistema fue diseñado por Al Alcom para Nolan Bushnell en la recién fundada Atari. 
+        El juego se presentó en 1972 y fue la piedra angular del videojuego como industria.
+        </p>
+        <p>Un hito importante en el inicio de los videojuegos tuvo lugar en 1971 cuando Nolan Bushnell comenzó a comercializar Computer Space, una versión de Space War, aunque otra versión recreativa de Space War como fue Galaxy War puede que se le adelantara a principios de los 70 en el campus de la universidad de Standford. La ascensión de los videojuegos llegó con la máquina recreativa Pong que es considerada la versión comercial del juego Tennis for Two de Higginbotham. El sistema fue diseñado por Al Alcom para Nolan Bushnell en la recién fundada Atari.
+        El juego se presentó en 1972 y fue la piedra angular del videojuego como industria. Durante los años siguientes se implantaron numerosos avances técnicos en los videojuegos (destacando los microprocesadores y los chips de memoria). Aparecieron en los salones recreativos juegos como Space Invaders (Taito) o Asteroids (Atari).
+        </p>
+    </section>
+
+    <!--Formulario que llena la tabla-->
+    <section>
+        <form class="form-tabla">
+            <h3 class="titulo_form">Ingresa los datos correspondientes:</h4>
+
+            <label>Videojuego:</label>
+            <input type="text" id="input_juego" class="dentro_input" name="juego-us" placeholder="Videojuego" required>
+            <label>Opinion:</label>
+            <input id="input_opinion" name="juego-fav" class="dentro_input" type="text" placeholder="Opinión" required>
+            <label>Enviá datos:</label>
+            <button id="boton_tabla">Agregar</button>
+        </form>
+    </section>
+    
+    <!--Tabla Dinamica-->
+    <table id="tabla-din">
+    </table>
+    
+   <script src="./javascript/tabla_dinamica.js"></script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+body {
+    background-image: url(../imagenes/fondo3.jpg);
+    background-size: 120px;
+    font-size: 20px;
+    min-width: 250px;
+}
+#menu-icon{
+    height: 50px;
+    width: 50px;
+}
+/* Titulo principal de los 3 html*/
+.titulo_principal {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d08efd;
+    text-transform: uppercase;
+    height: 60px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.cont-titulo-home {
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/*imagenes de la pagina home*/
+.valo,
+.lol,
+.mario {
+    width: 350px;
+    height: 200px;
+    border: 5px;
+    border-style: dashed;
+    border-color: rgb(81, 49, 222);
+}
+
+.mario {
+    border-color: rgb(58, 168, 21);
+}
+
+.valo {
+    border-color: red;
+}
+
+.cont-img-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.p_lol {
+    background-color: white;
+    text-transform: capitalize;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.boton-lol,
+.boton-mario,
+.boton-valo {
+    font-size: large;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.boton-lol {
+    background-color: rgb(100, 97, 253);
+
+}
+
+.boton-lol:hover {
+    background-color: rgb(189, 140, 235);
+}
+
+.boton-mario {
+    background-color: rgb(233, 241, 182);
+
+}
+
+.boton-mario:hover {
+    background-color: rgb(255, 161, 84);
+}
+
+.boton-valo {
+    background-color: rgb(155, 153, 153);
+
+}
+
+.boton-valo:hover {
+    background-color: rgb(101, 90, 86);
+}
+
+.texto_origen {
+    text-transform: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.div-parrafo-esp ,.p-torneos{
+    background-color: #ffe7b7;
+}
+
+.lista1 {
+    width: 47.5%;
+    background-color: white;
+}
+
+.sport {
+    height: 30%;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.link-img {
+    color: #c97f9a;
+    background-color: #faebcd;
+    text-transform: capitalize;
+    font-size: 35px;
+    text-align: center;
+    width: 18%;
+    margin-bottom: 0px;
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*inputs del captcha*/
+.nombre,
+.email,
+.password {
+    background-color: rgb(220, 211, 255);
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+
+
+.boton {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.p1 {
+    text-align: center;
+   
+    text-transform: initial;
+    font-size: x-large;
+    background-color: rgb(243, 181, 255);
+    margin-top: 0px;
+}
+.cont-captcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form {
+    text-align: center;
+    width: 300px;
+    background-color:#efa6d9;
+    font-size: 20px;
+    border: 4px;
+    border-style: dashed;
+    border-color: rgb(5, 5, 5);
+}
+
+
+.titulo-captcha {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-registrar {
+    height: 35px;
+    border: black solid 2px;
+}
+
+.titulo-preg {
+    color: black;
+}
+
+@media (max-width: 1100px) {
+    .cont-img-home {
+        flex-wrap: wrap;
+    }
+
+    .titulo_principal,
+    body {
+        font-size: 20px;
+    }
+
+    .texto_origen {
+        font-size: 15px;
+    }
+
+    .sport {
+        width: 70%;
+        height: 80%;
+    }
+
+    .parrafo1 {
+        height: 150%;
+    }
+
+    .p-torneos {
+
+        height: 60%;
+    }
+
+    .lista1 {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .link-img {
+        width: 60%;
+    }
+
+    .dentro_input {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .main-menu {
+        width: 90%;
+
+    }
+    .form-registrar{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+.form-tabla {
+    width: 45%;
+    margin-top: 0px;
+    background-color: rgb(189, 150, 255);
+    padding: 1em;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+.dentro_input {
+    text-align: center;
+    padding: 2px;
+    margin-left: 4px;
+    border-radius: 8px;
+    border: 3px solid black;
+  
+}
+
+.titulo_form {
+
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    transition: transform 0.3s;
+    transform: translate(-100%);
+}
+
+.main-menu--show {
+    transform: translateY(0);
+}
+
+/* hace que no se vea el checkbox */
+.img-menu__checkbox {
+    display: none;
+}
+
+.img-menu__checkbox:checked+.main-menu {
+    transform: translateY(0);
+}
+
+.nav-enlace {
+    padding: 4px;
+
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: rgb(113, 104, 104) 3px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: rgb(210, 135, 254);
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: monospace;
+}
+
+.nav-enlace:hover {
+    background-color: rgb(135, 193, 255);
+}
+
+.menu-li {
+    padding: 10px;
+}
+
+.img-menu {
+    max-width: 100%;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:780px) {
+    .navegador {
+        flex-direction: row;
+    }
+
+    .img-menu {
+        display: none;
+    }
+
+    .main-menu {
+        flex-direction: row;
+        transform: translateY(0);
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+#tabla-din,
+td,
+tr {
+    border: solid 2px black;
+    background-color: rgb(189, 150, 255);
+    margin: 15px;
+    border-collapse: collapse;
+    padding: 6px;
+   
+}
+
+.div_captcha {
+    text-align: center;
+}
+
+#boton_tabla {
+
+    color: black;
+    border-color: blueviolet;
+    text-transform: uppercase;
+    background-color: rgb(214, 228, 245);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.acciones {
+    border-color: rgb(104, 32, 113);
+    border-radius: 4px;
+    padding: 3px;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.titulo-datos, .form-registrar{
+    background-color: rgb(243, 181, 255);
+    padding-top: 10px;
+}

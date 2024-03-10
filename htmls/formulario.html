@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Captcha</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="../css/principal.css" >
+    
+    
+    <header>
+        <nav class="navegador">
+            <div class="img-menu">
+                <!--imagen del checkbox -->
+                <label for="img-menu-checkbox">
+                    <img src="../imagenes/menu.ico" alt="" id="menu-icon">
+                </label>
+            </div>
+
+            <input  type="checkbox" class="img-menu__checkbox" id="img-menu-checkbox"/>
+            <ul class="main-menu">
+                <li class="menu-li"> <a href="../home.html" class="nav-enlace">VIDEOJUEGOS</a></li>
+                <li class="menu-li"> <a href="esport.html" class="nav-enlace">ESPORT</a> </li>
+                <li class="menu-li"> <a href="formulario.html" class="nav-enlace">FORMULARIO </a> </li>
+            </ul>
+        </nav>
+        <h1 class="titulo_principal">Registra tus Datos</h1>
+    </header>
+    
+    <div class="cont-captcha">
+        
+        <div class="form">
+        <h2 class="titulo-captcha"> Captcha </h2>
+        <p id="captchavalue"> </p>
+        <p>Ingrese el numero indicado arriba</p>
+        <input type="number" id="inputcaptcha" class="captcha" required>
+        
+        <p class="resultado"></p>
+        </div>
+    </div>
+
+    
+    <div class="div_captcha">
+        <h3 class="titulo-datos">Ingrese los datos correspondientes:</h3>
+
+        <form action="" id="form" class="form-registrar" onsubmit="return false">
+            <input class="nombre" type="name" name="nombre" placeholder="nombre" required>
+            <input class="email" type="email" name="email" placeholder="email" required>
+            <input class="password" type="password" name="password" placeholder="password" minlength="5" maxlength="10" required >
+            <button id="btn-registrar" required> REGISTRAR </button>
+        </form>
+    </div>
+    
+    <p class="p1">Ojala les haya gustado nuestra pagina a nosotros nos gusto hacerla </p>
+
+<script src="../javascript/formulario.js"></script>   
+</body>
+</html>
